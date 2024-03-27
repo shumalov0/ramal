@@ -1,0 +1,12 @@
+@mixin fontPopHeader($size){
+   font-family: "Poppins_regular";
+    font-weight: 700;
+    font-size: $size;
+};
+
+@mixin fontCourHeader(){
+    font-family: "Courgette";
+    font-size: 30px;
+};
+
+

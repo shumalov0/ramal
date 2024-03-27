@@ -1,0 +1,231 @@
+#PatoMenu {
+  background-image: url("/assets/media/img/bg-title-page-01.jpg");
+  width: 100%;
+  min-height: 540px;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-family: "Poppins_regular";
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+  }
+}
+#MenuList {
+  .left {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 550px;
+    width: 100%;
+    .MenuList {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 35px !important;
+      .MenuBox {
+        span {
+          font-family: Montserrat;
+          font-weight: 400;
+          font-size: 13px;
+          color: #666666;
+          line-height: 1.7;
+        }
+
+        .price {
+          display: flex;
+          align-items: center;
+          gap: 3px;
+          justify-content: space-between;
+
+          div {
+            font-weight: 300;
+            font-size: 18px;
+            color: #333333;
+            line-height: 1.4;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          }
+
+          a {
+            font-family: Poppins;
+            font-weight: 300;
+            font-size: 18px;
+            color: #333333;
+            line-height: 1.4;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          }
+        }
+      }
+    }
+  }
+  .right {
+    max-width: 550px;
+    width: 100%;
+    .MenuList {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 35px !important;
+      .MenuBox {
+        span {
+          font-family: Montserrat;
+          font-weight: 400;
+          font-size: 13px;
+          color: #666666;
+          line-height: 1.7;
+        }
+
+        .price {
+          display: flex;
+          align-items: center;
+          gap: 3px;
+          justify-content: space-between;
+
+          div {
+            font-weight: 300;
+            font-size: 18px;
+            color: #333333;
+            line-height: 1.4;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          }
+
+          a {
+            font-family: Poppins;
+            font-weight: 300;
+            font-size: 18px;
+            color: #333333;
+            line-height: 1.4;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+          }
+          .imgPrice {
+            background-image: url("");
+          }
+        }
+      }
+    }
+  }
+}
+#Lunch {
+  .Lunch_image {
+    background-image: url("/assets/media/img/header-menu-01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 158px;
+    padding-top: 135px;
+
+    // span {
+    //   font-family: "Courgette";
+    //   font-size: 30px;
+    //   line-height: 1.2;
+    //   color: #d61c22;
+    // }
+
+    h3 {
+      font-family: "Poppins_regular";
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 1.2;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      word-spacing: 6px;
+    }
+  }
+}
+#Menu {
+  .MenuList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 570px;
+    padding: 80px 0;
+
+    .MenuBox {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      img {
+        border-radius: 5px;
+        width: 160px;
+        height: 120px;
+      }
+
+      .text {
+        h1 {
+          font-family: Poppins;
+          font-weight: 300;
+          font-size: 18px;
+          color: #333333;
+          line-height: 1.4;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+        }
+        p {
+          font-family: Montserrat;
+          font-weight: 400;
+          font-size: 13px;
+          color: #666666;
+          line-height: 1.7;
+        }
+        span {
+          font-family: Montserrat;
+          font-weight: 400;
+          font-size: 22px;
+          color: #333333;
+          line-height: 1.2;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+#Dinner {
+  .Dinner_image {
+    background-image: url("/assets/media/img/header-menu-02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 158px;
+    padding-top: 135px;
+
+    // span {
+    //   font-family: "Courgette";
+    //   font-size: 30px;
+    //   line-height: 1.2;
+    //   color: #d61c22;
+    // }
+
+    h3 {
+      font-family: "Poppins_regular";
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 1.2;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      word-spacing: 6px;
+    }
+  }
+}
